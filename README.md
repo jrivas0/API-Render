@@ -5,10 +5,12 @@ APIRender es una aplicación de Android desarrollada en Kotlin que utiliza la bi
 ## Características Principales
 - **Consumo de API con Volley**: Utiliza la biblioteca Volley para manejar las solicitudes HTTP y obtener datos de los endpoints de reqres.in.
 - **RecyclerView**: Muestra los datos de los usuarios en una lista dinámica y optimizada.
-- **Arquitectura limpia**: Seguir prácticas recomendadas de arquitectura en Android para mantener el código limpio y modular.
 
 ## Endpoints Utilizados
-- **https://reqres.in/api/users**: Obtiene una lista de usuarios.
+- **https://reqres.in/api/users?page=2**: Obtiene una lista de usuarios.
+- **https://reqres.in/api/login**: Se utiliza para simular el proceso de inicio de sesión.
+- **https://reqres.in/api/register**: Se utiliza para simular el proceso de registro.
+
 
 ## Tecnologías Utilizadas
 - **Kotlin**: Lenguaje principal para el desarrollo de la app.
